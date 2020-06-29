@@ -10,6 +10,7 @@ int main(){
     cout << &charArray2 << endl;
     cout << &charArray2[0] << endl;
     cout << (void*)&charArray2[0] << endl;
+    cout << "********************************" << endl;
     cout << charArray << endl;
     cout << &charArray << endl;
     cout << &charArray[0] << endl;
@@ -17,6 +18,8 @@ int main(){
     cout << &charArray << endl;
     cout << *&charArray << endl;
     cout << &*charArray << endl;
+
+    cout << "===============================" << endl;
 
     string str = {'s', 'b', 'd'};
     cout << str << endl;
